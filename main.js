@@ -18,7 +18,7 @@ function getData(query) {
   fetch(
     "http://api.giphy.com/v1/gifs/search?q=" +
       uriQuery +
-      "&api_key=w0U7qBZR2giDBOCdkUcoaElRT4jKrmEQ&limit=5"
+      "&api_key=PUT_YOUR_API_KEY_HERE&limit=5"
   )
     .then(function(response) {
       return response.json();
